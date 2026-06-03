@@ -2,6 +2,7 @@
   "routes": [
     {
       "route": "/*",
+      "allowedRoles": ["anonymous"],
       "redirect": "https://www.anitascorp.com",
       "statusCode": 301
     }
